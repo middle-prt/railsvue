@@ -1,0 +1,99 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Example
+    %link{:href => "/css/index.css", :rel => "stylesheet"}/
+    %script{:src => "/js/test.js", :type => "text/jsx;harmony=true"}
+  %body
+    .main
+      .header
+        .left_header
+          .title_box
+            .title
+              PR map
+        .right_header
+          .serch_box
+            .serch_left
+              .serch_left_box
+                %p カテゴリ選択
+                %form{:method => "post"}
+                  %select{:name => "main_cate"}
+                    %option{:value => ""} カテゴリを選択してください
+                    %option{:value => "パソコン"} パソコン
+                    %option{:value => "企業向けシステム・通信・機器"} 企業向けシステム・通信・機器
+                    %option{:value => "流通"} 流通
+                    %option{:value => "エンタテイメント"} エンタテイメント
+                    %option{:value => "スポーツ・アウトドア"} スポーツ・アウトドア
+                    %option{:value => "出版・アート・カルチャー"} 出版・アート・カルチャー
+                    %option{:value => "ゲーム・おもちゃ"} ゲーム・おもちゃ
+                    %option{:value => "デジタル製品・家電"} デジタル製品・家電
+                    %option{:value => "インテリア・雑貨"} インテリア・雑貨
+                    %option{:value => "自動車・バイク"} 自動車・バイク
+                    %option{:value => "アパレル・ファッション"} アパレル・ファッション
+                    %option{:value => "食品・飲料"} 食品・飲料
+                    %option{:value => "美容・健康"} 美容・健康
+                    %option{:value => "ビジネス・コンサルティング"} ビジネス・コンサルティング
+                    %option{:value => "金融"} 金融
+                    %option{:value => "広告・マーケティング"} 広告・マーケティング
+                    %option{:value => "教育・資格・人材"} 教育・資格・人材
+                    %option{:value => "ホテル・レジャー"} ホテル・レジャー
+                    %option{:value => "住宅・建築・建設"} 住宅・建築・建設
+                    %option{:value => "素材・化学・エネルギー"} 素材・化学・エネルギー
+                    %option{:value => "自然・環境"} 自然・環境
+                    %option{:value => "外食・中食"} 外食・中食
+                    %option{:value => "医療・医薬・福祉"} 医療・医薬・福祉
+                    %option{:value => "暮らし"} 暮らし
+                    %option{:value => "ネットサービス・アプリ"} ネットサービス・アプリ
+                    %option{:value => "交通・運輸・輸送"} 交通・運輸・輸送
+                    %option{:value => "その他"} その他
+            .serch_right
+              .serch_right_box_left
+                .input_box
+                  %p from
+                  %input{:min => "2018-01-01", :max => "2018-12-31", :name => "from_date", :type => "date"}/ 
+              .serch_right_box_right
+                .input_box
+                  %p to
+                  %input{:min => "2018-01-01", :max => "2018-12-31", :name => "to_date", :type => "date"}/
+          .submit_btn
+            .submit_text
+              %input{:type => "submit", :value => "submit"}/
+      .map
+        .left_map
+          %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3087949052347!2d139.71453281520022!3d35.66939783822834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c807b686b0b%3A0xa9958756cb393ed!2z5qCq5byP5Lya56S-UFIgVElNRVM!5e0!3m2!1sja!2sjp!4v1559881541826!5m2!1sja!2sjp", :style => "border:0", :width => "100%", :height => "100%"}
+        .right_map
+          %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3087949052347!2d139.71453281520022!3d35.66939783822834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c807b686b0b%3A0xa9958756cb393ed!2z5qCq5byP5Lya56S-UFIgVElNRVM!5e0!3m2!1sja!2sjp!4v1559881541826!5m2!1sja!2sjp", :style => "border:0", :width => "100%", :height => "100%"}
+      .ranking
+        .left_ranking
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+        .right_ranking
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data
+          .box
+            .left_data
+            .right_data

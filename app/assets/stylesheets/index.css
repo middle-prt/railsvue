@@ -1,0 +1,182 @@
+body {
+  box-sizing:  border-box;
+}
+
+.main {
+  padding: 1rem 3rem 1rem 3rem;
+
+}
+
+.header {
+  height: 12rem;
+  width: 100%;
+  border: solid 0.25rem black;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_header{
+  width: 30%;
+  height: 100%;
+}
+
+.title_box {
+  position: static;
+  height: 4rem;
+  width: 13rem;
+}
+
+.title{
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.right_header{
+  width: 70%;
+  height: 100%;
+}
+
+.serch_box {
+  width: 100%;
+  height: 10rem;
+  background-color: pink;
+  display: flex;
+}
+
+.serch_left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serch_left_box{
+  margin-top: -2rem;
+  text-align: center;
+}
+
+form{
+  width: 15.5rem;
+  height: 3rem;
+}
+
+select {
+  width: 15.5rem;
+  height: 3rem;
+  vertical-align: middle;
+  font-size: 1rem;
+  border: solid 0.1rem #0000FF;
+  border-radius: 1rem;
+}
+
+.serch_right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serch_right_box_left{
+  margin-left: 20%;
+  width: 30%;
+  margin-top: -2rem;
+  box-sizing: border-box;
+}
+
+.serch_right_box_right{
+  width: 50%;
+  margin-top: -2rem;
+  box-sizing: border-box;
+}
+
+.input_box {
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.input_box input {
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 3rem;
+  font-size: 1.5rem;
+  border: solid 0.1rem #0000FF;
+  border-radius: 1rem;
+}
+
+
+.submit_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit_text {
+  background-color: #0000FF;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.5rem;
+  margin-right: 8rem;
+}
+
+.submit_text input{
+  background-color: #0000FF;
+  font-size: 1.5rem;
+  border-style: none;
+  color: #fff;
+}
+
+.map {
+  width: 100%;
+  height: 32rem;
+  border: solid 0.25rem black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.left_map {
+  width: 45%;
+  height: 100%;
+  margin-right: 10%;
+} 
+
+.right_map {
+  width: 45%;
+  height: 100%;
+} 
+
+.ranking {
+
+} 
+
+.left_ranking {
+
+} 
+
+.right_ranking {
+
+} 
+
+.box {
+
+}
+
+.left_data {
+
+} 
+
+.right_data {
+
+} 
